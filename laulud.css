@@ -1,0 +1,63 @@
+.nimekiri{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nimekiri h1{
+    font-size: 40px;
+    font-weight: 1000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nimekiri thead {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.nimekiri thead tr td{
+    margin-bottom: 20px;
+}
+
+.nimekiri .toplugu {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15x;
+}
+
+.nimekiri .toplugu img{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.nimekiri .lugu {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.nimekiri tbody tr:nth-child(odd){
+    background-color: #f2f2f2
+
+}
+
+.nimekiri .lugu img{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.nimekiri tbody {
+    font-size: 18px;
+    font-weight: 500;
+}
