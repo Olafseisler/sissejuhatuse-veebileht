@@ -1,18 +1,51 @@
-.nimekiri{
-    width: 50%;
-    margin: 10px;
-    padding: 10px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.nimekiri h1{
+.pealkirjad{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+    height: 80px;
+
+}
+
+.pealkirjad h1{
     font-size: 40px;
     font-weight: 1000;
-    margin-top: 10px;
-    margin-bottom: 10px;
+}
+
+.pealkirjad .container1{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+}
+
+.pealkirjad .container2{
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nimekiri{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.nimekiri table{
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .nimekiri thead {
-    width: 50%;
     font-size: 20px;
     font-weight: 600;
 
@@ -22,8 +55,8 @@
     margin-bottom: 20px;
 }
 
+
 .nimekiri .toplugu {
-    width: 500px;
     height: 50px;
     display: flex;
     justify-content: flex-start;
@@ -38,7 +71,6 @@
 }
 
 .nimekiri .lugu {
-    width: 500px;
     height: 50px;
     display: flex;
     justify-content: flex-start;
@@ -60,4 +92,19 @@
 .nimekiri tbody {
     font-size: 18px;
     font-weight: 500;
+}
+
+.nimekiri .spotifyplayer{
+    width:50%;
+    float: right;
+    height:380;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.orangeblock{
+    width: 100%;
+    height: 400px;
+    margin-top: 150px;
+    background-color: orange;
 }
