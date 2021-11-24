@@ -1,6 +1,7 @@
 [Intervjuu]
 intervjueerija: Millised plaanid teil täna õhtuks olid?
-Väike PD: No... kindlaid plaane otseselt ei ole. Eks kui neidudega kokku saab, siis vaatab, räägib.
+Väike PD: No... kindlaid plaane otseselt ei ole. Eks kui neidudega kokku saab, 
+siis vaatab, räägib.
 intervjueerija: Aga mis te tavaliselt reede õhtul teete?
 [Intervjuu]
 
@@ -23,7 +24,7 @@ Lavalauad libedad
 nagu need kõnniteed
 nagu räimed lava ees
 kui laval kõnnime
-härra kukk uurib kellelt 
+härra kukk uurib kellelt
 konfiskeerida G
 pärast laivi klubi ees
 ma põgenen võmmi eest
@@ -67,7 +68,7 @@ see on maja mitte lõks
 lauaviin teeb krõks
 jou, tao pihku õps
 euta minu sõps
-hashtag Taivo Suits
+hashtag Toivo Suits
 Ha!
 Lõpp!
 
