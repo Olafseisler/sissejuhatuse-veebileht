@@ -115,7 +115,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
 }
 
 .arvustused .bottom {
@@ -123,7 +122,6 @@
     height: calc(100% - 80px);
     display: flex;
     justify-content: space-between;
-    border: 1px solid  black;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -131,13 +129,11 @@
 .arvustused .left{
     width: 50%;
     height: 100%;
-    border: 1px solid black;
 }
 
 .arvustused .right{
     width: 50%;
     height: 100%;
-    border: 1px solid black;
 }
 
 .arvustused .left .scroll {
@@ -150,9 +146,10 @@
 }
 
 .scroll .slide{
-    width: auto;
-    height: 100%;
-    border: 1px solid black;
+    width: 96%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .scroll .slide img{
@@ -167,7 +164,7 @@
 
 .prevbox img, .nextbox img{
     width: 100%;
-    height: 100%;
+    height: auto;
     color: black;
 }
 
@@ -178,6 +175,10 @@
 
 .right{
     padding: 20px;
+    padding-top: 8%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
 .right h1{
