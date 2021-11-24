@@ -9,6 +9,11 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+body h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
 header {
 	background: orange;
 	margin: auto;
