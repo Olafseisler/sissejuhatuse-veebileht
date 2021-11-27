@@ -1,39 +1,121 @@
-
 * {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
 
-.sisu h1{
-	margin-top: 30px;
-	margin-bottom: 5px;
-
-}
-
-
-.blogipostitus{
-	text-align: left;
-	margin: 10px;
-	padding: 10px;
-	max-width: 50%;
-	font-size: 22px;
-}
-
 .sisu{
 	display: flex;
+	justify-content: space-between;
+	height: 800px;
 }
 
-.uus-ja-kuum{
-	margin-left: auto;
-	margin-right: 0;
-	float: right;
-	max-width: 800px;
+.vasak{
+	width: 60%;
+	padding: 20px;
 }
 
-.pildid > img {
-  width: 45%;
-  margin: 1.66%;
+.parem{
+	width: 40%;
+	padding: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.vasak p{
+	font-size: 22px;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+.vasak .player .hbox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	width: 200px;
+	height: 35px;
+	background-color: orange;
+
+
+}
+
+.player .hbox h1{
+	color: white;
+	font-size:  22px;
+}
+
+.parem .hbox{
+	height: 100%;
+	width: 35px;
+	background-color: orange;
+	margin-right: 25px;
+	white-space: nowrap;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.parem .hbox h2{
+	font-size: 22px;
+	color: white;
+	transform: rotate(270deg);
+}
+
+.slider-wrap{
+	position: relative;
+	width: 400px;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+.slider{
+	position: absolute;
+	width: 100%;
+	height: 3400px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	will-change: transform;
+	animation: scroll 40s linear infinite;
+
+}
+
+@keyframes scroll{
+	0%{
+		transform: translateY(0);
+	}
+
+	100%{
+		transform: translateY(-1700px)
+	}
+}
+
+.slider-item{
+	flex: 1;
+	filter: grayscale(100%);
+	display: flex;
+	justify-content: center;
+}
+
+.slider-item:hover{
+	filter: grayscale(0%);
+	cursor: pointer;
+}
+
+.img-div{
+	width: 400px;
+	height: 400px;
+	
+}
+
+img{
+	width: 100%;
+	height: 100%;
 }
 
 
