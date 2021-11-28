@@ -49,7 +49,6 @@ function showTextSlides(n)  {
     textSlides[textSlideIndex-1].style.display = "block";
 }
 
-
 async function get_file_names(){
     let titles = [];
     let data = await fetch('out.txt');
@@ -92,7 +91,6 @@ async function generateTable(){
         row_data_3.onclick = function () {
             document.getElementById("laulu pealkiri").innerHTML = artist + " - " + laul;
             let lyrics = document.getElementById("s6nad");
-            
             lyrics.innerHTML = lyric;
           };
 
