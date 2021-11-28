@@ -1,56 +1,56 @@
-[REFRÄÄN]
-Kohvrid täis on kraamitud
+[REFRÃ„Ã„N]
+Kohvrid tÃ¤is on kraamitud
 Mandiga sokid laaditud
-Totsid on välja valitud
-Totsid on ära kraaditud
+Totsid on vÃ¤lja valitud
+Totsid on Ã¤ra kraaditud
 
-Sõidukid kõik on paagitud
+SÃµidukid kÃµik on paagitud
 Kraamid on taha haagitud
 Fotod on kaasa raamitud
 Plaanid on ammu plaanitud
-[REFRÄÄN] x 2
+[REFRÃ„Ã„N] x 2
 
-Lähme sõitu
-Kes see tahab viimast pitsalõiku
-Ukselävel õgin viimast võikut
-Meil ei ole palju aega ega mõistust
+LÃ¤hme sÃµitu
+Kes see tahab viimast pitsalÃµiku
+UkselÃ¤vel Ãµgin viimast vÃµikut
+Meil ei ole palju aega ega mÃµistust
 
 Mingi paar tundi magand
-Lihtsalt ärevus on suur
-Võtsin vana särgi kaasa
+Lihtsalt Ã¤revus on suur
+VÃµtsin vana sÃ¤rgi kaasa
 Kuigi tahaks mingit uut
 Autos kaks spordikotti
-Arbuus ja mõni luud
-Ja tagaistmel on kõlar
-Ja gripkotis mõned puud
+Arbuus ja mÃµni luud
+Ja tagaistmel on kÃµlar
+Ja gripkotis mÃµned puud
 
 Edasi-tagasi sest et
-Maha jäi mu laptop
-Südari äärel tripin
+Maha jÃ¤i mu laptop
+SÃ¼dari Ã¤Ã¤rel tripin
 Kus mu google maps on?
-Kui elu oleks mäng
-Siis ma lükkaks mingi hack - on
-Süda siis puperdab
-Närviline meil see track on
+Kui elu oleks mÃ¤ng
+Siis ma lÃ¼kkaks mingi hack - on
+SÃ¼da siis puperdab
+NÃ¤rviline meil see track on
 
-Võta hetk
+VÃµta hetk
 Vaja maha rahuneda
 Sest mu aju
 Hakkab juba pragunema
 
-[REFRÄÄN]
-Kohvrid täis on kraamitud
+[REFRÃ„Ã„N]
+Kohvrid tÃ¤is on kraamitud
 Mandiga sokid laaditud
-Totsid on välja valitud
-Totsid on ära kraaditud
+Totsid on vÃ¤lja valitud
+Totsid on Ã¤ra kraaditud
 
-Sõidukid kõik on paagitud
+SÃµidukid kÃµik on paagitud
 Kraamid on taha haagitud
 Fotod on kaasa raamitud
 Plaanid on ammu plaanitud
-[REFRÄÄN] x 2
+[REFRÃ„Ã„N] x 2
 
-Võta hetk
+VÃµta hetk
 Vaja maha rahuneda
 Sest mu aju
 Hakkab juba pragunema

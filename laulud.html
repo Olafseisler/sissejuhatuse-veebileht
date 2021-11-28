@@ -5,130 +5,136 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="laulud.css">
 <link rel="stylesheet" href="style.css">
+
 <head>
     <title>
         Lehe Päis
     </title>
 </head>
+
 <body>
-    
-<header>
-    <nav>
-        <h1 class="logo"><a href="esileht.html">EstCloud</a></h1>
-        <div class="nav-links">
-            <ul>
-                <li><a class="nav-link" href="#">Lood</a></li>
-                <li><a class="nav-link" href="#">Artistid</a></li>
-                <li><a class="nav-link" href="meist.html">Meist</a></li>
-            </ul>
 
+    <header>
+        <nav>
+            <h1 class="logo"><a href="esileht.html">EstCloud</a></h1>
+            <div class="nav-links">
+                <ul>
+                    <li><a class="nav-link" href="#">Lood</a></li>
+                    <li><a class="nav-link" href="#">Artistid</a></li>
+                    <li><a class="nav-link" href="meist.html">Meist</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="pealkirjad">
+        <div class="container1">
+            <h1>Kõik Laulud</h1>
         </div>
-        
-    </nav>
-</header>
-
-<div class="pealkirjad">
-    <div class="container1">
-        <h1>Kõik Laulud</h1>
+        <div class="container2">
+            <h1>Kuula Spotify's</h1>
+        </div>
     </div>
-    <div class="container2">
-        <h1>Kuula Spotify's</h1>
+
+    <div class="nimekiri">
+        <table id="table">
+            <thead>
+                <tr>
+                    <td>Lugu</td>
+                    <td>Artist</td>
+                </tr>
+            </thead>
+        </table>
+        <iframe class="soundcloudplayer" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1139512987&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
     </div>
-</div>
 
-<div class="nimekiri">
-    <table id="table">
-        <thead>
-            <tr>
-                <td>Lugu</td>
-                <td>Artist</td>
-            </tr>
-        </thead>
-    </table>
-    <iframe src="https://open.spotify.com/embed/playlist/3tGy4KkuOX05teizHXxyiL?utm_source=generator&theme=0" class="spotifyplayer"frameBorder="0"; allowfullscreen=""; allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";></iframe>
-</div>
+    <div class="lyrics">
+        <h3 id="laulu pealkiri"> </h3>
 
-<div class="lyrics">
-    <h3 id="laulu pealkiri"> </h3>
-    
-    <p id="s6nad">
-        [Sõnad]
-    </p>
-</div>
+        <p id="s6nad">
+        </p>
+    </div>
 
 
-<div class="arvustused">
-    <div class="pealkiri"><h1>Arvustused</h1></div>
-    <div class="bottom">
-        <div class="left">
-            <div class="scroll">
-                <div class="prevbox"><a class="prev" onclick="plusTextSlides(-1), plusSlides(-1)"><img src="pildid/prev.png" alt=""></a></div>
-                <div class="slide"><img src="pildid/paksats.png" alt=""></div>
-                <div class="slide"><img src="pildid/nkn.png" alt=""></div>
-                <div class="slide"><img src="pildid/mesabby.png" alt=""></div>
-                <div class="slide"><img src="pildid/skp.png" alt=""></div>
-                <div class="nextbox"><a class="next" onclick="plusTextSlides(1), plusSlides(1)" onclick="plusTextSlides(1)"><img src="pildid/next.png" alt=""></a></div>
+    <div class="arvustused">
+        <div class="pealkiri">
+            <h1>Arvustused</h1>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <div class="scroll">
+                    <div class="prevbox"><a class="prev" onclick="plusTextSlides(-1), plusSlides(-1)"><img
+                                src="pildid/prev.png" alt=""></a></div>
+                    <div class="slide"><img src="pildid/paksats.png" alt=""></div>
+                    <div class="slide"><img src="pildid/nkn.png" alt=""></div>
+                    <div class="slide"><img src="pildid/mesabby.png" alt=""></div>
+                    <div class="slide"><img src="pildid/skp.png" alt=""></div>
+                    <div class="nextbox"><a class="next" onclick="plusTextSlides(1), plusSlides(1)"
+                            onclick="plusTextSlides(1)"><img src="pildid/next.png" alt=""></a></div>
+                </div>
+            </div>
+            <div class="right">
+                <h1>Paks_Ats x Benakanister - Kapuuts (prod. hannes)</h1>
+                <p>Paks Ats ja Benakanister mõmisevad piiksude ja plõksude taustal
+                    eksistentsialistlikust ängist immutatud riimi. Kuigi Soundcloudi räppari elu
+                    tundub äraütlemata vinge, siis toimub kulisside taga meeltnüristav grind, mis vaevab ka
+                    kangeima sigmaisase hinge. Track viib mõnusasse transsi ning muudab veic su
+                    igapäevaelu. Biidimeistriks Tartust pärit prodhannes, kellel koos DYVOUR'iga
+                    tulemas 3. detsembril Aparaaditehases eksperimentaalmuusika esitus Dog Dreams,
+                    mida soovitan igal juhul külastada.</p>
+            </div>
+            <div class="right">
+                <h1>NKN - koosolek vol.4 </h1>
+                <p>Koosolek vol. 4 on testamendiks NKN-i tootlikkusele. Need mehed niisama singleid ei tee
+                    Aasta jooksul 4 albumit välja anda on omaette saavutus, rääkimata kvaliteedist. Boss, Susan,
+                    Orjandus ja Kro$$upriske paiskavad Pagu biitidel kuulajate kõrvu mitmetasandilisi riime
+                    millel nii palju viiteid aktuaalsetele teemadele ja popkultuurile, et neid võiks uudiste
+                    asemel kuulata. NKN-i lood on nii kaasahaarvad kui sügavalt endassekaemuslikud. Zoomerite
+                    hingeelu muusikaline väljendus. Vajab teravat kõrva ja mõistust et kõigest torust tulevast
+                    pilti kokku panna. Kindlasti hoida silm peal nende blogil nkn.ee.
+                </p>
+            </div>
+            <div class="right">
+                <h1>Mesabby - Anne vol. 1</h1>
+                <p>Korralik debüütalbum Mesabby-lt (hääldada mesa-baby), mis lööb oma energilisuse ja hea huumoriga.
+                    Mesabby on endine Tartu räpitrupi POI$T€KOORi liige ning seda on ta muusikast tunda - bassised
+                    biidid, sujuv flow ja vulgaarsed teemad annavad teada, et Mesabby on oma linnaosas ja ka v
+                    mujal kõva tegija kel pole probleemi raha teha ja su kallimat üle lüüa. Võiks kritiseerida albumi
+                    veidi kõikuvat kvaliteeti. Osad lood panevad kaasa õõtsuma, osad jätavad külmaks, aga kõik on
+                    vähemalt hästi mixitud ja kuulatav ning Vol 1 plaadi nimes jätab ootama järge.</p>
+            </div>
+            <div class="right">
+                <h1>SKP - Maalt linna ft. Benakanister</h1>
+                <p>Supiköögi Poiste suvine singel toob teieni kaasahaarava biidi ja just parajalt
+                    autotuunitud feature'i Benakanistrilt. Vaatamata minu kalduvusele SKP-d toetada, pean
+                    tunnistama, et siinse rambivalguse varastab Bena oma uniste ja paeluvate värssidega
+                    mis on kohati paremadki kui ta enda lauludel. Olenemata kas loed "Maalt Linna"
+                    sõnadest välja narkootikumide vedaja argipäeva või tööstusrevolutsiooni negatiivse toime
+                    ühiskonnale, on koostööst Tartu räpparite vahel tulnud väärt lugu.</p>
             </div>
         </div>
-        <div class="right">
-            <h1>Paks_Ats x Benakanister - Kapuuts (prod. hannes)</h1>
-            <p>Paks Ats ja Benakanister mõmisevad piiksude ja plõksude taustal 
-                eksistentsialistlikust ängist immutatud riimi. Kuigi Soundcloudi räppari elu 
-                tundub äraütlemata vinge, siis on kulisside taga meeltnüristav grind, mis vaevab ka 
-                kangeima sigmaisase hinge. Track viib mõnusasse transsi ning muudab veic su 
-                igapäevaelu. Biidimeistriks Tartust pärit prodhannes, kellel koos DYVOUR'iga 
-                tulemas 3. detsembril Aparaaditehases eksperimentaalmuusika esitus Dog Dreams, 
-                mida soovitan igal juhul külastada.</p>
-        </div>
-        <div class="right">
-            <h1>NKN - koosolek vol.4 </h1>
-            <p>Koosolek vol. 4 on testamendiks NKN-i tootlikkusele. Need mehed niisama singleid ei tee
-            Aasta jooksul 4 albumit välja anda on omaette saavutus, rääkimata kvaliteedist. Boss, Susan,
-            Orjandus ja Kro$$upriske paiskavad Pagu biitidel kuulajate kõrvu mitmetasandilisi riime 
-            millel nii palju viiteid aktuaalsetele teemadele ja popkultuurile, et neid võiks uudiste 
-            asemel kuulata. NKN-i lood on nii kaasahaarvad kui sügavalt endassekaemuslikud. Zoomerite
-            hingeelu muusikaline väljendus. Vajab teravat kõrva ja mõistust et kõigest torust tulevast
-            pilti kokku panna. Kindlasti hoida silm peal nende blogil nkn.ee. 
-            </p>
-        </div>
-        <div class="right">
-            <h1>Mesabby - Anne vol. 1</h1>
-            <p>Korralik debüütalbum Mesabby-lt (hääldada mesa-baby), mis lööb oma energilisuse ja hea huumoriga. 
-                Mesabby on endine Tartu räpitrupi POI$T€KOORi liige ning seda on ta muusikast tunda - bassised
-                biidid, sujuv flow ja vulgaarsed teemad annavad teada, et Mesabby on oma linnaosas ja ka v
-                mujal kõva tegija kel pole probleemi raha teha ja su kallimat üle lüüa. Võiks kritiseerida albumi 
-                veidi kõikuvat kvaliteeti. Osad lood panevad kaasa õõtsuma, osad jätavad külmaks, aga kõik on 
-                vähemalt hästi mixitud ja kuulatav ning Vol 1 plaadi nimes jätab ootama järge.</p>
-        </div>
-        <div class="right">
-            <h1>SKP - Maalt linna ft. Benakanister</h1>
-            <p>Supiköögi Poiste suvine singel toob teieni kaasahaarava biidi ja just parajalt 
-                autotuunitud feature'i Benakanistrilt. Vaatamata minu kalduvusele SKP-d toetada, pean
-                tunnistama, et siinse rambivalguse varastab Bena oma uniste ja paeluvate värssidega
-                mis on kohati paremadki kui ta enda lauludel. Olenemata kas loed "Maalt Linna"
-                sõnadest välja narkootikumide vedaja argipäeva või tööstusrevolutsiooni negatiivse toime
-                ühiskonnale, on koostööst Tartu räpparite vahel tulnud väärt lugu.</p>
-        </div>
     </div>
-</div>
 
-<div class="edasi">
+    <div class="edasi">
 
-</div>
-
-<footer>
-    <div>
-        <ul>
-            <li><a href="#">Meist</a></li>
-            <li><a href="#">Laulud</a></li>
-            <li><a href="#">Artistid</a></li>
-        </ul>
-        <p>Copyright 2021</p>
     </div>
-</footer>
+
+    <footer>
+        <div>
+            <ul>
+                <li><a href="#">Meist</a></li>
+                <li><a href="#">Laulud</a></li>
+                <li><a href="#">Artistid</a></li>
+            </ul>
+            <p>Copyright 2021</p>
+        </div>
+    </footer>
 
 
-<script src='index.js' charset="UTF-8" ></script>
+    <script src='index.js' charset="UTF-8"></script>
 </body>
 
 </html>
