@@ -4,14 +4,6 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
-let laulud = [
-    { name: "sõitu minek", artist: "benakanister", album: "Kytus" },
-    { name: "toba", artist: "NKN", album: "Koosolek 4" },
-    { name: "Calabassas", artist: "SKP", album: "Supiköögi Sulased" },
-    { name: "Maja (Mitte Lõks)", artist: "Väike PD", album: "Kytus" },
-    { name: "GYMN", artist: "Lil Ants", album: "" }
-];
-
 function plusSlides(n) {
     showSlides(slideIndex += n)
 }
@@ -36,7 +28,7 @@ function showSlides(n)  {
 let textSlideIndex = 1;
 showTextSlides(textSlideIndex);
 generateTable();
-get_files();
+let all_lyrics = get_file_data();
 
 
 function plusTextSlides(n) {
@@ -58,8 +50,9 @@ function showTextSlides(n)  {
     textSlides[textSlideIndex-1].style.display = "block";
 }
 
-async function get_files(){
-    let titles = []
+
+async function get_file_names(){
+    let titles = [];
     let data = await fetch('out.txt');
     data = await data.text();
     titles = data.split("\r\n");
@@ -67,21 +60,40 @@ async function get_files(){
     return titles;
 }
 
+async function get_file_data(){
+    let lyrics = new Object(); // Dictionary
+
+    let filenames = await get_file_names();
+    for (let name in filenames){
+        console.log(name + name);
+        let data = await fetch("laulusõnad/"+ name);
+        data = await data.text();
+        lyrics[name] = data.text;
+    }
+
+    console.log(lyrics);
+    return lyrics;
+}
+
 async function generateTable(){
     table = document.getElementById("table");
 
-    let failinimed = (await get_files()).map(n => n.split(".")[0]);
+    let failinimed = (await get_file_names()).map(n => n.split(".")[0]);
 
     for (let element of failinimed) {
         let [artist, laul] = element.split(" - ");
         let row = document.createElement("tr");
+
         let row_data_1 = document.createElement('td');
         row_data_1.innerHTML = laul;
         let row_data_2 = document.createElement('td');
         row_data_2.innerHTML = artist;
+        let row_data_3 = document.createElement('a')
+        row_data_3.innerHTML = "sõnad";
 
         row.appendChild(row_data_1);
         row.appendChild(row_data_2);
+        row.appendChild(row_data_3);
         console.log(row);
         table.appendChild(row);
     }
