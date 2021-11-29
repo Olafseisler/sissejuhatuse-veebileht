@@ -1,17 +1,15 @@
 ﻿// https://www.w3schools.com/howto/howto_js_slideshow.asp
 
-
+// Seab indeksi ja esimese nähaoleva slaidi
 let slideIndex = 1;
 showSlides(slideIndex);
 
+// nihutab slaidi indeksit n võrra
 function plusSlides(n) {
     showSlides(slideIndex += n)
 }
 
-function currentSlide(n) {
-    showSlides(slideIndex = n)
-}
-
+// toob vastava indeksiga slaidi esile
 function showSlides(n)  {
     let i;
     let slides = document.getElementsByClassName("slide");
@@ -49,6 +47,7 @@ function showTextSlides(n)  {
     textSlides[textSlideIndex-1].style.display = "block";
 }
 
+// loeb kaustast failinimed 
 async function get_file_names(){
     let titles = [];
     let data = await fetch('out.txt');
@@ -58,6 +57,7 @@ async function get_file_names(){
     return titles;
 }
 
+// loeb failinimede põhjal failidest teksti
 async function get_file_data(){
     let lyrics = new Map();
 
@@ -73,7 +73,8 @@ async function get_file_data(){
     return lyrics;
 }
 
-
+// genereerib laulude andmete põhjal tabeli, kus on laulud, nende esitajad ja nupp,
+// millega näha laulusõnu
 async function generateTable(){
     table = document.getElementById("table");
     let all_lyrics = await get_file_data();
