@@ -83,7 +83,7 @@
     
 }
 
-.nimekiri tbody tr:nth-child(odd){
+.nimekiri tr:nth-child(odd){
     background-color: #f2f2f2
 
 }
