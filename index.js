@@ -87,8 +87,8 @@ async function generateTable(){
         row_data_1.innerHTML = laul;
         let row_data_2 = document.createElement('td');
         row_data_2.innerHTML = artist;
-        let row_data_3 = document.createElement("button");
-        row_data_3.innerHTML = "Sõnad";
+        let row_data_3 = document.createElement("td");
+        row_data_3.innerHTML = "<button> Sõnad </button>";
         row_data_3.onclick = function () {
             document.getElementById("laulupealkiri").innerHTML = artist + " - " + laul;
             let lyrics = document.getElementById("s6nad");
